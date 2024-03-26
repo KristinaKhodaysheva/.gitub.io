@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1197px;
+}
+@import "fonts/_fonts.scss";
+@import "blocks/start";
+@import "blocks/about";
+@import "blocks/offer";
+@import "blocks/popular-tour";
+@import "blocks/blog";
+@import "blocks/foto";
+@import "blocks/subscription";
+@import "blocks/footer";
+@import "blocks/copywriting";

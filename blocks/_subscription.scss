@@ -1,0 +1,36 @@
+.subscription{
+    position: relative;
+    top: 100px;
+    left: auto;
+    border-radius: 6px;
+    max-width: 1180px;
+    height: 196px;
+    box-shadow: 0 0 15px 0 rgba(24, 18, 30, 0.12);
+    background: #fdfdfd;  
+    &__content{
+        display: flex;
+        flex-direction: row;
+        padding: 40px 70px;
+        gap: 15px;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    &__form-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+}
+.form{
+    border-radius: 4px;
+    padding: 0px 16px;
+    width: 280px;
+    height: 44px;
+    background: #f3f5f4;
+}
+.btn{
+    width: 240px;
+}

@@ -1,0 +1,102 @@
+.start{
+    background: url(img/фон.png)  50%/cover no-repeat;
+    height: 985px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    &__logo{
+        margin-right: auto
+    }
+    &__lists{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        margin-right: 49px; 
+        height: 25px;
+        padding: 0;   
+    }
+    &__item{
+        list-style-type: none;   
+    }
+    &__item-link:hover{
+        color: #f2be22;
+    }
+    &__button{
+        border-radius: 4px;
+        padding: 12px 24px;
+        background: #1a3e3e;
+        text-align: center;
+    }
+    &__button:hover{
+        border: 1px solid #1a3e3e;
+        background: #fdfdfd;
+        color: #1a3e3e;
+    }
+}
+.title{
+    margin: 463px 0 41px 0;
+}
+.search{
+    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    height: 161px;
+    display: flex;
+    flex-direction: row;
+    @media (max-width:1050px){
+        flex-wrap: wrap;
+        
+    }
+    
+    &__select, &__date{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        height: 81px;
+        margin: auto;
+    }
+    &__date-row{
+        display: flex;
+        border: 1px solid #e1e3e4;
+        border-radius: 8px;
+        width: 270px;
+    }
+    .date{
+        flex: 1;
+        padding: 0 8px;
+        border: none;
+    }
+    .select, .date{
+        border-radius: 8px;
+        height: 52px;
+        background: none;
+        text-align: left;
+        width: 270px;
+    }
+    .select{
+        border: 1px solid #e1e3e4;
+        padding: 14px 16px;
+    }
+    .date::-webkit-calendar-picker-indicator{
+        filter: invert(100%);
+    }
+    &__button{
+        border-radius: 4px;
+        width: 141px;
+        height: 20px;
+        background: #fdfdfd;
+        text-align: center;
+        margin: 44px auto;
+        padding: 16px 36px;
+        @media (max-width:1050px){
+            margin: 10px auto;
+        }
+    }
+    &__button:hover{
+        background-color: #1a3e3e;
+        color: #fdfdfd;
+    }
+}

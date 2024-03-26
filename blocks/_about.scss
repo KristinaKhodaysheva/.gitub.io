@@ -1,0 +1,17 @@
+.about__inf{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+    &__text{
+        display: flex;
+        flex-direction: column;    
+    }
+}
+.all__title{
+    margin-bottom: 8px;
+}
+.subtitle, .text{
+        margin-bottom: 40px;
+}

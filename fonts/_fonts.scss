@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "NEXT ART";
+    src: url(fonts/NEXT\ ART_Bold.otf);
+}
+@font-face {
+    font-family: "NunitoSans";
+    src: url(fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+body{
+    font-family: "NunitoSans";
+}
+a{
+    text-decoration: none;
+}
+.header__item-link, .header__button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fdfdfd;
+}
+.header__button, .search__button{
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+}
+.title{
+    font-family:  "NEXT ART";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fdfdfd;
+}
+.select, .date{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fdfdfd;
+}
+.search__select-lable, .offer__item-text, .blog__post-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fdfdfd;
+}
+.search__button{
+    color: #1a3e3e;
+    font-weight: 700;
+}
+.all__title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 83%;
+    color: #f2be22;
+}
+.subtitle{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    color: #18121e;
+}
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #18121e;
+}
+.offer__item-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: 0.01em;
+    color: #18121e;
+}
+.offer__item-text{
+    line-height: 143%;
+    color: #000;
+}
+.blog__post-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #18121e;
+}
+.blog__post-text{
+    line-height: 143%;
+    color: #18121e;
+}
+.blog__post-date, .blog__more{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    color: #f2be22;
+}
+.blog__more{
+    color: #18121e;
+}
+.subscription__subtitle{
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    color: #18121e;
+}
+.subscription__name{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+    color: #f2be22;
+}
+.subscription__form-name, .subscription__form-footnote{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #18121e;
+}
+.subscription__form-footnote{
+    font-size: 14px;
+    line-height: 129%;
+}
+.footer__title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #f3f5f4;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+}
+.footer-email, .offer-list__item, .copywriting__name, .policy{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fff;
+}
+.footer-email, .policy{
+    text-decoration: underline;
+}
+.new{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 133%;
+    text-transform: lowercase;
+    color: #1a3e3e;
+}
